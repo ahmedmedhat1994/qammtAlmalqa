@@ -22,8 +22,28 @@
         height: 90px;
         width: 90px;
     }
+    .accordion-head {
+        border-color: #f5f6fa;
+        background: #f5f6fa;
+        color: slategray;
+    }
 
+    .accordion-head:hover {
+        background-color: #9B791F; /* Change to your desired hover color */
+        color: white; /* Change text color on hover */
+    }
+    .accordion-head.active {
+        background-color: #9B791F; /* Change to your desired hover color */
+        color: white; /* Change text color on hover */
+    }
+    /*.accordion-item .accordion-head.collapsed {*/
+    /*    background-color: #f8f9fa; !* Background color for collapsed state *!*/
+    /*}*/
 
+    .accordion-item .accordion-head:not(.collapsed) {
+        background-color: #9B791F; /* Change to your desired hover color */
+        color: white; /* Text color when active */
+    }
 </style>
 @endsection
 @section('header')
@@ -226,11 +246,11 @@
                 </div><!-- .col -->
             </div><!-- .row -->
             <div class="row justify-content-center">
-                <div class="col-lg-8">
+                <div class="col-lg-12">
                     <div class="accordion accordion-s1 card  border-0 round-xl" id="accordion">
-                        <div class="accordion-item ">
-                            <a href="#" class="accordion-head collapsed  bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-1">
-                                <h6 class="title">من هي قمّة المَلقا لخدمات الاعمال ؟</h6>
+                        <div class="accordion-item">
+                            <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-1">
+                                <span>من هي قمّة المَلقا لخدمات الاعمال ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse " id="accordion-item-1" data-bs-parent="#accordion">
@@ -240,8 +260,8 @@
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
-                            <a href="#" class="accordion-head collapsed bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-2">
-                                <h6 class="title">لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</h6>
+                            <a href="#" class="accordion-head collapsed " data-bs-toggle="collapse" data-bs-target="#accordion-item-2">
+                                <span>لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-2" data-bs-parent="#accordion">
@@ -252,8 +272,8 @@
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
-                            <a href="#" class="accordion-head collapsed bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-3">
-                                <h6 class="title">ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</h6>
+                            <a href="#" class="accordion-head collapsed " data-bs-toggle="collapse" data-bs-target="#accordion-item-3">
+                                <span>ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-3" data-bs-parent="#accordion">
@@ -273,8 +293,8 @@
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
-                            <a href="#" class="accordion-head collapsed bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-4">
-                                <h6 class="title">هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</h6>
+                            <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-4">
+                                <span>هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-4" data-bs-parent="#accordion">
