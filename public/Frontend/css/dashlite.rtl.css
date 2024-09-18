@@ -3171,28 +3171,28 @@ textarea.form-control-lg {
 
 .btn-primary, .pricing-s3.pricing-featured .btn {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #193933;
-  --bs-btn-border-color: #193933;
+  --bs-btn-bg: #6576ff;
+  --bs-btn-border-color: #6576ff;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #246357;
-  --bs-btn-hover-border-color: #246357;
+  --bs-btn-hover-bg: #5664d9;
+  --bs-btn-hover-border-color: #515ecc;
   --bs-btn-focus-shadow-rgb: 124, 139, 255;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #193933;
-  --bs-btn-active-border-color: #193933;
+  --bs-btn-active-bg: #515ecc;
+  --bs-btn-active-border-color: #4c59bf;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(16, 25, 36, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #193933;
-  --bs-btn-disabled-border-color: #193933;
+  --bs-btn-disabled-bg: #6576ff;
+  --bs-btn-disabled-border-color: #6576ff;
 }
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #B08D2F;
-  --bs-btn-border-color: #B08D2F;
+  --bs-btn-bg: #364a63;
+  --bs-btn-border-color: #364a63;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #b0810c;
-  --bs-btn-hover-border-color: #b0810c;
+  --bs-btn-hover-bg: #2e3f54;
+  --bs-btn-hover-border-color: #2b3b4f;
   --bs-btn-focus-shadow-rgb: 84, 101, 122;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #2b3b4f;
@@ -9484,7 +9484,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: #193933 !important;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -15584,7 +15584,7 @@ svg {
 
 .bg-dark {
   border-color: #1c2b46;
-  background: #193933;
+  background: #1c2b46;
 }
 
 .bg-gray {
@@ -15733,8 +15733,8 @@ svg {
 
 .badge-dim.bg-dark {
   color: #1c2b46;
-  background-color: #193933 !important;
-  border-color: #193933;
+  background-color: #e6e8eb !important;
+  border-color: #e6e8eb;
 }
 
 .badge-dim.bg-outline-dark {
@@ -16645,8 +16645,8 @@ a:hover .btn-trigger:before {
 }
 .btn-dim.btn-primary:not(:disabled):not(.disabled):hover, .pricing-s3.pricing-featured .btn-dim.btn:not(:disabled):not(.disabled):hover {
   color: #fff;
-  background-color: #193933;
-  border-color: #193933;
+  background-color: #6576ff;
+  border-color: #6576ff;
 }
 
 .btn-dim.btn-secondary {
@@ -28873,11 +28873,11 @@ p > span > .icon.ni {
 }
 
 .after-bg-primary:after {
-  background-color: #193933;
+  background-color: #6576ff;
 }
 
 .after-bg-secondary:after {
-  background-color: #9B791F;
+  background-color: #364a63;
 }
 
 .after-bg-success:after {
