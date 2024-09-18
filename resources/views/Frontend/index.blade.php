@@ -121,8 +121,7 @@
             </div><!-- .section-content -->
         </div><!-- .container -->
     </section><!-- .section -->
-
-    <section class="section section-service pb-5" id="feature">
+    <section class="section section-service pb-0" id="feature">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-xl-7 col-md-8">
@@ -185,6 +184,21 @@
                             <a href="#">
                             <div class="card-inner">
                                 <div class="service-icon styled-icon styled-icon-6x text-info">
+                                <img  src="{{asset('Frontend/img/marketing.png')}}" >
+                                </div>
+                                <div class="service-text">
+                                    <h4 class="title" style="color: #1F826F;">تسويق الكتروني</h4>
+                                    <span class="fw-bold fs-16px text-secondary">بأقل وقت وأقل جهد ممكن نسعى لتصل إلى القمة بمستوى عالٍ من التميز.</span>
+                                </div>
+                            </div>
+                            </a>
+                        </div><!-- .service -->
+                    </div><!-- .col -->
+                    <div class="col-mb-4 col-lg-4">
+                        <div class="card card-full service service-s4 bg-lighter after-bg-secondary">
+                            <a href="#">
+                            <div class="card-inner">
+                                <div class="service-icon styled-icon styled-icon-6x text-info">
                                 <img  src="{{asset('Frontend/img/school.png')}}" >
                                 </div>
                                 <div class="service-text">
@@ -200,6 +214,86 @@
             </div>
         </div><!-- .container -->
     </section>
+
+    <section class="section section-faq" id="faqs">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6">
+                    <div class="section-head">
+                        <h2 class="title">كيف نستطيع أن نساعدك؟</h2>
+                        <p>Got a question? We've got answers. If you have some other questions, Who are in extremely love with eco friendly system.</p>
+                    </div><!-- .section-head -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion accordion-s1 card  border-0 round-xl" id="accordion">
+                        <div class="accordion-item ">
+                            <a href="#" class="accordion-head collapsed  bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-1">
+                                <h6 class="title">من هي قمّة المَلقا لخدمات الاعمال ؟</h6>
+                                <span class="accordion-icon"></span>
+                            </a>
+                            <div class="accordion-body collapse " id="accordion-item-1" data-bs-parent="#accordion">
+                                <div class="accordion-inner">
+                                    <p>قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة. </p>
+                                </div>
+                            </div>
+                        </div><!-- .accordion-item -->
+                        <div class="accordion-item">
+                            <a href="#" class="accordion-head collapsed bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-2">
+                                <h6 class="title">لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</h6>
+                                <span class="accordion-icon"></span>
+                            </a>
+                            <div class="accordion-body collapse" id="accordion-item-2" data-bs-parent="#accordion">
+                                <div class="accordion-inner">
+                                    <p>إذا كنت تبحث عن السّرعة في الأداء والدّقّة والسّريّة التّامّة في إنجاز جميع خدمات الأعمال، فإنّ قمّة المَلقا لخدمات الاعمال خيارك الأمثل. ويمكنك الاطّلاع على تعليقات عملائنا على الخدمات المقدَّمة لهم عبر حسابنا في تويتر على الرّابط التّالي: https://twitter.com/qalmalqa/likes
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- .accordion-item -->
+                        <div class="accordion-item">
+                            <a href="#" class="accordion-head collapsed bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-3">
+                                <h6 class="title">ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</h6>
+                                <span class="accordion-icon"></span>
+                            </a>
+                            <div class="accordion-body collapse" id="accordion-item-3" data-bs-parent="#accordion">
+                                <div class="accordion-inner">
+                                    <p>
+                                        الشّركات
+                                    </p>
+                                    <p>
+                                        المصانع
+
+                                    </p>
+                                    <p>
+                                        المؤسّسات الفرديّة.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- .accordion-item -->
+                        <div class="accordion-item">
+                            <a href="#" class="accordion-head collapsed bg-lighter" data-bs-toggle="collapse" data-bs-target="#accordion-item-4">
+                                <h6 class="title">هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</h6>
+                                <span class="accordion-icon"></span>
+                            </a>
+                            <div class="accordion-body collapse" id="accordion-item-4" data-bs-parent="#accordion">
+                                <div class="accordion-inner">
+                                    <p>
+                                        نعم يمكنكم الاطّلاع على دليل خدماتنا على الرّابط التّالي: <a href="https://bit.ly/3bIpwsy">https://bit.ly/3bIpwsy</a>
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div><!-- .accordion-item -->
+
+                    </div><!-- accordion -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+
 @endsection
 
 @section('script')

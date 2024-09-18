@@ -195,7 +195,7 @@
 
         @yield('content')
 
-        <footer class="footer bg-dark is-dark">
+        <footer class="footer bg-primary is-dark">
             <div class="container">
                 <div class="row justify-content-between py-4 py-md-6">
                     <div class="col-lg-4 col-md-6">
