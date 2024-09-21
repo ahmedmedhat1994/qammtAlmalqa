@@ -6,11 +6,5 @@
  * Version	 :	1.0.0
  * Updated	 :	07.23.2020
 **/
-#home {
-    position: relative;
-    background-color: #193933; /* Black overlay with 50% opacity */
-    background-image: url('../img/background.webp'); /* Replace with your image URL */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the image */
-}
+
 

@@ -18,6 +18,11 @@ Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
 
+Route::get('/about',function (){ return view('frontend.about'); })->name('about');
+Route::get('/privacy_policy',function (){ return view('frontend.privacy_policy'); })->name('privacy_policy');
+Route::get('/conditions',function (){ return view('frontend.conditions'); })->name('conditions');
+Route::get('/contact',function (){ return view('frontend.contact'); })->name('contact');
+Route::post('/contact_form',function (){ return view('frontend.contact'); })->name('contact_form');
 
 
 

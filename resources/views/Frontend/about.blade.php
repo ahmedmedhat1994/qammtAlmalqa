@@ -1,6 +1,6 @@
 @extends('Frontend.layouts.master')
 @section('title')
-    الصفحة الرئيسية
+    نبذة عنا
 @endsection
 
 @section('style')
@@ -177,18 +177,20 @@
             padding: 0px 15px 25px 15px;
         }
     }
-    #home {
-        position: relative;
-        background-color: #193933; /* Black overlay with 50% opacity */
-        background-image: url('{{asset('Frontend/img/background.webp')}}'); /* Replace with your image URL */
-        background-size: cover; /* Cover the entire container */
-        background-position: center; /* Center the image */
-    }
 </style>
+    <style>
+        #home {
+            position: relative;
+            background-color: #193933 !important; /* Black overlay with 50% opacity */
+        }
+        .header {
+            min-height: 40vh;
+        }
+    </style>
 @endsection
 @section('header')
-    <div class="header-main header-main-s1 is-sticky is-transparent on-dark">
-        <div class="container header-container ">
+    <div class="header-main header-main-s1 is-sticky is-transparent on-dark ">
+        <div class="container header-container  border-bottom pb-1">
             <div class="header-wrap">
                 <div class="header-logo">
                     <a href="{{route('index')}}.html" class="logo-link">
@@ -298,108 +300,71 @@
                 </nav><!-- .nk-nav-menu -->
             </div><!-- .header-warp-->
         </div><!-- .container-->
+
     </div><!-- .header-main-->
-    <div class="header-content my-auto py-5  is-dark">
-        <div class="container">
-            <div class="row flex-row-reverse align-items-center justify-content-between g-gs">
-
-                <div class="col-lg-12">
-                    <div class="header-caption">
-                        <h1 class="header-title" style="font-size:40pt;">مؤسسة قمّة المَلقا</h1>
-                        <div class="header-text pe-5">
-                            <p style="font-size: 18pt; color:#fff; ">الأولى في المملكة في خدمات الأعمال  يهدف عملنا إلى ابتكار الأفكار واستقطاب الكوادر التي تمثّل أعلى معايير التّميّز في تقديم خدمةٍ مهنيّةٍ احترافيّةٍ بأعلى جودةٍ ممكنةٍ وتمكين كلّ من يساهم بذلك من النّموّ المستمرّ.</p>
-                        </div>
-                        <ul class="header-action btns-inline">
-                            <li>
-                                <a href="#" class="btn btn-secondary btn-round btn-lg"><span>اعرف اكثر</span></a>
-                            </li>
-                        </ul><!-- .header-action -->
-                    </div><!-- .header-caption -->
-                </div><!-- .col -->
-            </div><!-- .row -->
-        </div><!-- .container -->
-    </div><!-- .header-content -->
-
-
+    <div class="container">
+        <h3 class="fw-bold text-white">نبذةٌ عنّا</h3>
+    <nav class="mt-3">
+        <ul class="breadcrumb breadcrumb-arrow">
+            <li class="breadcrumb-item fs-16px text-white"><a href="{{route('index')}}">الصّفحة الرّئيسيّة</a></li>
+            <li class="breadcrumb-item active fs-16px  text-white">من نحن؟</li>
+        </ul>
+    </nav>
+    </div>
 @endsection
 @section('content')
-    <section class="section section-service py-0 d-none d-md-block " id="service">
+    <section class="section section-service   " id="service" style="padding-top: 100px;">
+
+    </section><!-- .section -->
+    <section class="section section-service pb-0" id="feature">
         <div class="container">
             <div class="section-content">
-                <div class="row justify-content-start text-start g-gs">
-                    <div class="col-md-4 col-lg-3">
-                        <div class="card card-shadow" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
-                                <div class="service">
-                                    <div class="service-icon styled-icon styled-icon-6x text-white">
-                                        <img src="{{asset('Frontend/img/t4.svg')}}">
-                                    </div><!-- .service-icon -->
-                                    <div class="service-text">
-                                        <h4 class="title text-white">المشورة في مجال الأعمال</h4>
-                                        {{--                                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusm lod tempor incididunt.</p>--}}
-                                    </div><!-- .service-text -->
-                                </div><!-- .service -->
-                            </div><!-- .card-inner -->
-                        </div><!-- .card -->
+                <div class="row g-gs">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="service service-s1">
+                            <div class="service-icon styled-icon styled-icon-s1">
+                               <img src="{{asset('Frontend/img/about_us.png')}}" style="filter: brightness(0) invert(1); max-width: 50px;"/>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title">من نحن؟</h4>
+                                <p>قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة.</p>
+                            </div>
+                        </div><!-- .service -->
                     </div><!-- .col -->
-                    <div class="col-md-4 col-lg-3">
-                        <div class="card card-shadow p-3" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
-                                <div class="service">
-                                    <div class="service-icon styled-icon styled-icon-6x text-white">
-                                        <img src="{{asset('Frontend/img/t2.svg')}}">
-                                    </div><!-- .service-icon -->
-                                    <div class="service-text">
-                                        <h4 class="title text-white">التّدريب والتّأهيل</h4>
-                                        {{--                                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusm lod tempor incididunt.</p>--}}
-                                    </div><!-- .service-text -->
-                                </div><!-- .service -->
-                            </div><!-- .card-inner -->
-                        </div><!-- .card -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="service service-s1">
+                            <div class="service-icon styled-icon styled-icon-s1">
+                                <img src="{{asset('Frontend/img/vision.png')}}" style="filter: brightness(0) invert(1); max-width: 50px;"/>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title">رؤيتنا</h4>
+                                <p>نواكب 2030 بتزامن خدمات تتسارع مع التطوير والابتكار ليصل عملاؤنا إلى القمة</p>
+                            </div>
+                        </div><!-- .service -->
+                    </div><!-- .col- -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="service service-s1">
+                            <div class="service-icon styled-icon styled-icon-s1">
+                                <img src="{{asset('Frontend/img/message.png')}}" style="filter: brightness(0) invert(1); max-width: 50px;"/>
+                            </div>
+                            <div class="service-text">
+                                <h4 class="title">رسالتنا</h4>
+                                <p>نواكب رؤية ٢٠٣٠ بتزامن خدمات تتسارع مع التطوير والإبتكار في خدمات تأخذنا نحو القمة</p>
+                            </div>
+                        </div><!-- .service -->
                     </div><!-- .col -->
-                    <div class="col-md-4 col-lg-3">
-                        <div class="card card-shadow p-3" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
-                                <div class="service">
-                                    <div class="service-icon styled-icon styled-icon-6x text-white">
-                                        <img src="{{asset('Frontend/img/t3.svg')}}">
-                                    </div><!-- .service-icon -->
-                                    <div class="service-text">
-                                        <h4 class="title text-white">الحلول والخطط</h4>
-                                        {{--                                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusm lod tempor incididunt.</p>--}}
-                                    </div><!-- .service-text -->
-                                </div><!-- .service -->
-                            </div><!-- .card-inner -->
-                        </div><!-- .card -->
-                    </div><!-- .col -->
-                    <div class="col-md-4 col-lg-3">
-                        <div class="card card-shadow p-3" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
-                                <div class="service">
-                                    <div class="service-icon styled-icon styled-icon-6x text-white">
-                                        <img src="{{asset('Frontend/img/t4.svg')}}">
-                                    </div><!-- .service-icon -->
-                                    <div class="service-text">
-                                        <h4 class="title text-white">التّطوير والتّميّز
-                                        </h4>
-                                        {{--                                            <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eiusm lod tempor incididunt.</p>--}}
-                                    </div><!-- .service-text -->
-                                </div><!-- .service -->
-                            </div><!-- .card-inner -->
-                        </div><!-- .card -->
-                    </div><!-- .col -->
-
                 </div><!-- .row -->
-            </div><!-- .section-content -->
+            </div>
         </div><!-- .container -->
-    </section><!-- .section -->
+    </section>
+
     <section class="section section-service pb-0" id="feature">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-xl-7 col-md-8">
                     <div class="section-head">
                         <h2 class="title text-dark">ماذا نقدّم لكم؟</h2>
-                        <p>Continually network virtual strategic theme areas vis-a-vis ubiquitous potentialities. Holisticly negotiate focused e-tailers without premium solutions.</p>
+                        <p>عندما تضع أمامك كلّ الخيارات المتاحة للمقارنة فإنّك حتماً ستختار إتمام لتميز خدماتنا وإبداعنا المتواصل. عندما تختارنا فإنك تختار الجودة والخبرة التي اختارتها أكبر الشّركات في المملكة</p>
                     </div><!-- .section-head -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -492,7 +457,7 @@
                 <div class="col-lg-6">
                     <div class="section-head">
                         <h2 class="title">كيف نستطيع أن نساعدك؟</h2>
-                        <p>Got a question? We've got answers. If you have some other questions, Who are in extremely love with eco friendly system.</p>
+                        <p>عندما تضع أمامك كلّ الخيارات المتاحة للمقارنة فإنّك حتماً ستختار إتمام لتميز خدماتنا وإبداعنا المتواصل. عندما تختارنا فإنك تختار الجودة والخبرة التي اختارتها أكبر الشّركات في المملكة</p>
                     </div><!-- .section-head -->
                 </div><!-- .col -->
             </div><!-- .row -->
