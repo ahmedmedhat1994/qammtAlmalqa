@@ -1,7 +1,14 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use Artesaos\SEOTools\Facades\SEOTools;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\TwitterCard;
+use Artesaos\SEOTools\Facades\JsonLd;
+use Spatie\Sitemap\SitemapGenerator;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,12 +24,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.index');
 })->name('index');
+Route::get('/',['App\Http\Controllers\Frontend\HomeController','index'])->name('index');
 
-Route::get('/about',function (){ return view('frontend.about'); })->name('about');
-Route::get('/privacy_policy',function (){ return view('frontend.privacy_policy'); })->name('privacy_policy');
-Route::get('/conditions',function (){ return view('frontend.conditions'); })->name('conditions');
-Route::get('/contact',function (){ return view('frontend.contact'); })->name('contact');
-Route::post('/contact_form',function (){ return view('frontend.contact'); })->name('contact_form');
+Route::get('/about',['App\Http\Controllers\Frontend\HomeController','about'])->name('about');
+Route::get('/privacy_policy',['App\Http\Controllers\Frontend\HomeController','privacy_policy'])->name('privacy_policy');
+Route::get('/conditions',['App\Http\Controllers\Frontend\HomeController','conditions'])->name('conditions');
+Route::get('/contact',['App\Http\Controllers\Frontend\HomeController','contact'])->name('contact');
+Route::get('/site',function (){
+    SitemapGenerator::create('https://example.com')->writeToFile('public/sitemap.xml');
+
+});
+Route::post('/contact_form',function (){  return view('frontend.contact'); })->name('contact_form');
 
 
 
@@ -35,5 +47,20 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+
+Route::get('/clear-cache', function () {
+//    Artisan::call('config:cache');
+    Artisan::call('cache:clear');
+//    Artisan::call('config:clear');
+    Artisan::call('view:clear');
+    Artisan::call('route:clear');
+//    Artisan::call('optimize');
+//    Artisan::call('cache:forget spatie.permission.cache');
+//    Artisan::call('permission:cache-reset');
+    return "Cache is cleared";
+})->name('clear.cache');
+
 
 require __DIR__.'/auth.php';

@@ -6,11 +6,11 @@
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="{{asset('Frontend/images/favicon.png')}}">
     <!-- Page Title  -->
-    <title>@yield('title')</title>
+    {!! SEO::generate() !!}
+
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="{{asset('Frontend/css/dashlite.rtl.css')}}">
     <link id="skin-default" rel="stylesheet" href="{{asset('Frontend/css/theme.css')}}">
@@ -221,7 +221,7 @@
 <div class="nk-app-root">
     <!-- main @s -->
     <div class="nk-main ">
-        <div class="header-main-s1  is-transparent on-dark bg-primary py-3">
+        <div class="header-main-s1  is-transparent on-dark bg-primary py-3 d-sm-block d-none">
             <div class="container header-container">
                 <div class="row">
                     <div class="col-6 d-flex justify-content-start text-center">
