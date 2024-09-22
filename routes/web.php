@@ -31,7 +31,7 @@ Route::get('/privacy_policy',['App\Http\Controllers\Frontend\HomeController','pr
 Route::get('/conditions',['App\Http\Controllers\Frontend\HomeController','conditions'])->name('conditions');
 Route::get('/contact',['App\Http\Controllers\Frontend\HomeController','contact'])->name('contact');
 Route::get('/site',function (){
-    SitemapGenerator::create('https://example.com')->writeToFile('public/sitemap.xml');
+    SitemapGenerator::create('https://qalmalqa.com/')->writeToFile('public/sitemap.xml');
 
 });
 Route::post('/contact_form',function (){  return view('frontend.contact'); })->name('contact_form');
