@@ -13,23 +13,23 @@ class HomeController extends Controller
     {
         SEOTools::setTitle('الصفحة الرئيسية');
 
-        return view('frontend.index');
+        return view('Frontend.index');
     }
     public function about()
     {
      SEOTools::setTitle('نبذة عنا');
-     return view('frontend.about');
+     return view('Frontend.about');
     }
     public function privacy_policy()
     {
-        SEOTools::setTitle('سياسة الخصوصيّة'); return view('frontend.privacy_policy');
+        SEOTools::setTitle('سياسة الخصوصيّة'); return view('Frontend.privacy_policy');
     }
     public function conditions()
     {
-    SEOTools::setTitle('شروط الاستخدام'); return view('frontend.conditions');
+    SEOTools::setTitle('شروط الاستخدام'); return view('Frontend.conditions');
     }
     public function contact()
     {
-        SEOTools::setTitle('اتّصل بنا'); return view('frontend.contact');
+        SEOTools::setTitle('اتّصل بنا'); return view('Frontend.contact');
     }
 }

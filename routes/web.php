@@ -34,7 +34,7 @@ Route::get('/site',function (){
     SitemapGenerator::create('https://qalmalqa.com/')->writeToFile('public/sitemap.xml');
 
 });
-Route::post('/contact_form',function (){  return view('frontend.contact'); })->name('contact_form');
+Route::post('/contact_form',function (){  return view('Frontend.contact'); })->name('contact_form');
 
 
 
