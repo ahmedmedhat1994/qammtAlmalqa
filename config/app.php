@@ -160,6 +160,8 @@ return [
          * Package Service Providers...
          */
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
+        RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+
 
         /*
          * Application Service Providers...
@@ -184,6 +186,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
+        'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
 
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),

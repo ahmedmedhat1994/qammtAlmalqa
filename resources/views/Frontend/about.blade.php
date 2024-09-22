@@ -206,89 +206,11 @@
                 </div><!-- .header-nav-toggle -->
                 <nav class="header-menu" data-content="mainNav">
                     <ul class="menu-list ms-lg-auto">
-                        <li class="menu-item"><a href="#home" class="menu-link nav-link">الصفحة الرئيسية</a></li>
-                        <li class="menu-item has-sub">
-                            <a href="#" class="menu-link menu-toggle">من نحن</a>
-                            <div class="menu-sub">
-                                <ul class="menu-list">
-                                    <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link" >نبذة عنا</a></li>
-                                    <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link">اخر الاخبار</a></li>
-                                    <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link">دليل الخدمات</a></li>
-                                    <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link">سياسة الخصوصية</a></li>
-                                    <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link">الشروط والاحكام</a></li>
+                        <li class="menu-item"><a href="{{route('index')}}" class="menu-link nav-link">الصفحة الرئيسية</a></li>
 
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="menu-item has-sub">
-                            <a href="#" class="menu-link menu-toggle">مركز المساعدة</a>
-                            <div class="menu-sub">
-                                <ul class="menu-list">
-                                    <li class="menu-item has-sub">
-                                        <a href="#" class="menu-link menu-toggle">Auth Pages</a>
-                                        <div class="menu-sub">
-                                            <ul class="menu-list">
-                                                <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link" target="_blank">Login / Signin</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-login-v2.html" class="menu-link" target="_blank">Login / Signin v2</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-login-v3.html" class="menu-link" target="_blank">Login / Signin v3</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-register.html" class="menu-link" target="_blank">Register / Signup</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-register-v2.html" class="menu-link" target="_blank">Register / Signup v2</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-register-v3.html" class="menu-link" target="_blank">Register / Signup v3</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-reset.html" class="menu-link" target="_blank">Forgot Password</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-reset-v2.html" class="menu-link" target="_blank">Forgot Password v2</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-reset-v3.html" class="menu-link" target="_blank">Forgot Password v3</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="menu-item has-sub">
-                                        <a href="#" class="menu-link menu-toggle">Error Pages</a>
-                                        <div class="menu-sub">
-                                            <ul class="menu-list">
-                                                <li class="menu-item"><a href="html/pages/errors/404-classic.html" target="_blank" class="menu-link">404 Classic</a></li>
-                                                <li class="menu-item"><a href="html/pages/errors/404-modern.html" target="_blank" class="menu-link">404 Modern</a></li>
-                                                <li class="menu-item"><a href="html/pages/errors/504-classic.html" target="_blank" class="menu-link">504 Classic</a></li>
-                                                <li class="menu-item"><a href="html/pages/errors/504-modern.html" target="_blank" class="menu-link">504 Modern</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="menu-item"><a href="#home" class="menu-link nav-link">الباقات</a></li>
-                        <li class="menu-item has-sub">
-                            <a href="#" class="menu-link menu-toggle">الخدمات</a>
-                            <div class="menu-sub">
-                                <ul class="menu-list">
-                                    <li class="menu-item has-sub">
-                                        <a href="#" class="menu-link menu-toggle">Auth Pages</a>
-                                        <div class="menu-sub">
-                                            <ul class="menu-list">
-                                                <li class="menu-item"><a href="html/pages/auths/auth-login.html" class="menu-link" target="_blank">Login / Signin</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-login-v2.html" class="menu-link" target="_blank">Login / Signin v2</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-login-v3.html" class="menu-link" target="_blank">Login / Signin v3</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-register.html" class="menu-link" target="_blank">Register / Signup</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-register-v2.html" class="menu-link" target="_blank">Register / Signup v2</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-register-v3.html" class="menu-link" target="_blank">Register / Signup v3</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-reset.html" class="menu-link" target="_blank">Forgot Password</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-reset-v2.html" class="menu-link" target="_blank">Forgot Password v2</a></li>
-                                                <li class="menu-item"><a href="html/pages/auths/auth-reset-v3.html" class="menu-link" target="_blank">Forgot Password v3</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="menu-item has-sub">
-                                        <a href="#" class="menu-link menu-toggle">Error Pages</a>
-                                        <div class="menu-sub">
-                                            <ul class="menu-list">
-                                                <li class="menu-item"><a href="html/pages/errors/404-classic.html" target="_blank" class="menu-link">404 Classic</a></li>
-                                                <li class="menu-item"><a href="html/pages/errors/404-modern.html" target="_blank" class="menu-link">404 Modern</a></li>
-                                                <li class="menu-item"><a href="html/pages/errors/504-classic.html" target="_blank" class="menu-link">504 Classic</a></li>
-                                                <li class="menu-item"><a href="html/pages/errors/504-modern.html" target="_blank" class="menu-link">504 Modern</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+                        <li class="menu-item"><a href="{{route('about')}}" class="menu-link" >من نحن</a></li>
+                        <li class="menu-item"><a href="{{route('privacy_policy')}}" class="menu-link">سياسة الخصوصية</a></li>
+                        <li class="menu-item"><a href="{{route('conditions')}}" class="menu-link">الشروط والاحكام</a></li>
                         <li class="menu-item"><a href="#home" class="menu-link nav-link">انضم الينا</a></li>
 
                     </ul>

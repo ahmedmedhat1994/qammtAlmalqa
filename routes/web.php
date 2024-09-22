@@ -39,13 +39,17 @@ Route::post('/contact_form',function (){  return view('Frontend.contact'); })->n
 
 
 Route::get('/dashboard', function () {
-    return view('dashboard');
+    return view('Backend.dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+Route::group(['prefix' => 'admin', 'as' => 'admin.'],function () {
+    Route::group(['middleware' => 'guest'], function () {
+        Route::get('/login', [\App\Http\Controllers\Auth\AuthenticatedSessionController::class, 'create'])->name('login');
+    });
+    Route::group(['middleware'=>'auth'],function (){
+   Route::resource('/blog',\App\Http\Controllers\BlogController::class);
+   Route::resource('/contact',\App\Http\Controllers\ContactController::class);
+    });
 });
 
 

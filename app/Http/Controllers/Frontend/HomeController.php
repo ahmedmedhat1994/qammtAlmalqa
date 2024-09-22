@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Backend\Blog;
 use Illuminate\Http\Request;
 use Artesaos\SEOTools\Facades\SEOTools;
 
@@ -12,8 +13,8 @@ class HomeController extends Controller
     public function index()
     {
         SEOTools::setTitle('الصفحة الرئيسية');
-
-        return view('Frontend.index');
+            $blogs = Blog::orderBy('id','DESC')->get();
+        return view('Frontend.index',compact('blogs'));
     }
     public function about()
     {
