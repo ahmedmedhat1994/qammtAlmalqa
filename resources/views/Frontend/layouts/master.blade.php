@@ -232,12 +232,12 @@
                     </div>
                     <div class="col-6 d-flex justify-content-end">
                         <ul class="social">
-                            <li><a href="#"><em class="icon ni ni-whatsapp text-white"></em></a></li>
-                            <li><a href="#"><em class="icon ni ni-twitter text-white"></em></a></li>
-                            <li><a href="#"><em class="icon ni ni-facebook-f text-white"></em></a></li>
+                            <li><a href="https://wa.me/966538269156"><em class="icon ni ni-whatsapp text-white"></em></a></li>
+                            <li><a href="https://www.twitter.com/qalmalqa"><em class="icon ni ni-twitter text-white"></em></a></li>
+                            <li><a href="https://www.fb.com/qalmalqa"><em class="icon ni ni-facebook-f text-white"></em></a></li>
                             <li><a href="#"><em class="icon ni ni-linkedin text-white"></em></a></li>
                             <li><a href="#"><em class="icon ni ni-youtube text-white"></em></a></li>
-                            <li><a href="#"><em class="icon ni ni-instagram text-white"></em></a></li>
+                            <li><a href="https://www.instagram.com/qalmalqa/"><em class="icon ni ni-instagram text-white"></em></a></li>
                             <li><a href="#"><em class="icon ni ni-telegram text-white"></em></a></li>
                             <li><a href="#"><em class="icon ni ni-snapchat text-white"></em></a></li>
                             <li class="text-center border border-bottom-0 border-top-0"><a class="text-center text-white" href="#"><span class="me-2 text-center">English</span> <em class="icon ni ni-globe text-white"></em></a></li>
@@ -272,11 +272,11 @@
                         <div class="widget">
                             <h6 class="widget-title">روابط هامّة</h6>
                             <ul class="widget-link text-white g-2 py-2">
-                                <li><a class="text-white" href="#">اطلب خدمة</a></li>
-                                <li><a class="text-white" href="#">من نحن؟</a></li>
-                                <li><a class="text-white" href="#">الأسئلة الشائعة</a></li>
-                                <li><a class="text-white" href="#">اتّصل بنا</a></li>
-                                <li><a class="text-white" href="#">انضم إلينا</a></li>
+                                <li><a class="text-white" href="https://wa.me/966538269156">اطلب خدمة</a></li>
+                                <li><a class="text-white" href="{{route('about')}}">من نحن؟</a></li>
+                                <li><a class="text-white" href="{{route('about')}}">الأسئلة الشائعة</a></li>
+                                <li><a class="text-white" href="{{route('contact')}}">اتّصل بنا</a></li>
+                                <li><a class="text-white" href="https://wa.me/966538269156">انضم إلينا</a></li>
                             </ul>
                         </div>
                     </div><!-- .col -->

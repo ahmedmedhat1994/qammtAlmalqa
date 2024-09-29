@@ -26744,7 +26744,7 @@ body.nav-shown {
   width: 2.5rem;
   border-radius: 50%;
   outline: none;
-  color: #1f2b3a;
+  color: white;
 }
 .on-dark:not(.has-fixed) .menu-toggler {
   color: #fff;
@@ -26964,7 +26964,7 @@ body.nav-shown {
   top: 0;
   bottom: 0;
   width: 250px;
-  background: #fff;
+  background: rgba(9, 57, 41);
   box-shadow: 0 0 12px rgba(129, 107, 255, 0.2);
   padding: 1.5rem 0;
   transform: translateX(100%);
@@ -26986,7 +26986,7 @@ body.nav-shown {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(129, 107, 255, 0.4);
+  background: rgba(9, 57, 41, 0.4);
   opacity: 0;
   visibility: hidden;
   z-index: 1000;

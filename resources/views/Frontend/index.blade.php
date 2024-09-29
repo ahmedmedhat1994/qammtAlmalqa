@@ -209,12 +209,12 @@
                         <li class="menu-item"><a href="{{route('about')}}" class="menu-link" >من نحن</a></li>
                         <li class="menu-item"><a href="{{route('privacy_policy')}}" class="menu-link">سياسة الخصوصية</a></li>
                         <li class="menu-item"><a href="{{route('conditions')}}" class="menu-link">الشروط والاحكام</a></li>
-                        <li class="menu-item"><a href="#home" class="menu-link nav-link">انضم الينا</a></li>
+                        <li class="menu-item"><a href="https://wa.me/966538269156" class="menu-link nav-link">انضم الينا</a></li>
 
                     </ul>
                     <ul class="menu-btns">
                         <li>
-                            <a href="https://1.envato.market/e0y3g" target="_blank" class="btn btn-secondary btn-lg">اطلب خدمة</a>
+                            <a href="https://wa.me/966538269156" target="_blank" class="btn btn-secondary btn-lg">اطلب خدمة</a>
                         </li>
                     </ul>
                 </nav><!-- .nk-nav-menu -->
@@ -233,7 +233,7 @@
                         </div>
                         <ul class="header-action btns-inline">
                             <li>
-                                <a href="#" class="btn btn-secondary btn-round btn-lg"><span>اعرف اكثر</span></a>
+                                <a href="https://wa.me/966538269156" target="_blank" class="btn btn-secondary btn-round btn-lg"><span>اعرف اكثر</span></a>
                             </li>
                         </ul><!-- .header-action -->
                     </div><!-- .header-caption -->
@@ -249,9 +249,9 @@
         <div class="container">
             <div class="section-content">
                 <div class="row justify-content-start text-start g-gs">
-                    <div class="col-md-4 col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                         <div class="card card-shadow" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
+                            <div class="card-inner">
                                 <div class="service">
                                     <div class="service-icon styled-icon styled-icon-6x text-white">
                                         <img src="{{asset('Frontend/img/t4.svg')}}">
@@ -264,9 +264,9 @@
                             </div><!-- .card-inner -->
                         </div><!-- .card -->
                     </div><!-- .col -->
-                    <div class="col-md-4 col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                         <div class="card card-shadow p-3" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
+                            <div class="card-inner ">
                                 <div class="service">
                                     <div class="service-icon styled-icon styled-icon-6x text-white">
                                         <img src="{{asset('Frontend/img/t2.svg')}}">
@@ -279,9 +279,9 @@
                             </div><!-- .card-inner -->
                         </div><!-- .card -->
                     </div><!-- .col -->
-                    <div class="col-md-4 col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                         <div class="card card-shadow p-3" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
+                            <div class="card-inner">
                                 <div class="service">
                                     <div class="service-icon styled-icon styled-icon-6x text-white">
                                         <img src="{{asset('Frontend/img/t3.svg')}}">
@@ -294,9 +294,9 @@
                             </div><!-- .card-inner -->
                         </div><!-- .card -->
                     </div><!-- .col -->
-                    <div class="col-md-4 col-lg-3">
+                    <div class="col-md-3 col-lg-3">
                         <div class="card card-shadow p-3" style="background: #B08D2F; color: #fff;">
-                            <div class="card-inner card-inner-lg">
+                            <div class="card-inner">
                                 <div class="service">
                                     <div class="service-icon styled-icon styled-icon-6x text-white">
                                         <img src="{{asset('Frontend/img/t4.svg')}}">
@@ -321,7 +321,6 @@
                 <div class="col-xl-7 col-md-8">
                     <div class="section-head">
                         <h2 class="title text-dark">ماذا نقدّم لكم؟</h2>
-                        <p>Continually network virtual strategic theme areas vis-a-vis ubiquitous potentialities. Holisticly negotiate focused e-tailers without premium solutions.</p>
                     </div><!-- .section-head -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -414,7 +413,6 @@
                 <div class="col-lg-6">
                     <div class="section-head">
                         <h2 class="title">كيف نستطيع أن نساعدك؟</h2>
-                        <p>Got a question? We've got answers. If you have some other questions, Who are in extremely love with eco friendly system.</p>
                     </div><!-- .section-head -->
                 </div><!-- .col -->
             </div><!-- .row -->
