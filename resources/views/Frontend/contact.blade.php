@@ -211,7 +211,7 @@
                         <li class="menu-item"><a href="{{route('about')}}" class="menu-link" >من نحن</a></li>
                         <li class="menu-item"><a href="{{route('privacy_policy')}}" class="menu-link">سياسة الخصوصية</a></li>
                         <li class="menu-item"><a href="{{route('conditions')}}" class="menu-link">الشروط والاحكام</a></li>
-                        <li class="menu-item"><a href="https://wa.me/966538269156" class="menu-link nav-link">انضم الينا</a></li>
+                        <li class="menu-item"><a href="{{route('contact')}}" class="menu-link nav-link">تواصل معنا</a></li>
 
                     </ul>
                     <ul class="menu-btns">

@@ -209,7 +209,7 @@
                         <li class="menu-item"><a href="{{route('about')}}" class="menu-link" >من نحن</a></li>
                         <li class="menu-item"><a href="{{route('privacy_policy')}}" class="menu-link">سياسة الخصوصية</a></li>
                         <li class="menu-item"><a href="{{route('conditions')}}" class="menu-link">الشروط والاحكام</a></li>
-                        <li class="menu-item"><a href="https://wa.me/966538269156" class="menu-link nav-link">انضم الينا</a></li>
+                        <li class="menu-item"><a href="{{route('contact')}}" class="menu-link nav-link">تواصل معنا</a></li>
 
                     </ul>
                     <ul class="menu-btns">
@@ -471,7 +471,7 @@
                             <div class="accordion-body collapse" id="accordion-item-4" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
                                     <p class="text-gray fs-16px fw-bold">
-                                        نعم يمكنكم الاطّلاع على دليل خدماتنا على الرّابط التّالي: <a href="https://bit.ly/3bIpwsy">https://bit.ly/3bIpwsy</a>
+                                        نعم يمكنكم الاطّلاع على دليل خدماتنا على الرّابط التّالي: <a href="qalmalqa.com">qalmalqa.com</a>
 
                                     </p>
 
