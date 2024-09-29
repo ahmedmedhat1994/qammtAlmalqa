@@ -249,7 +249,7 @@
                             </div>
                             <div class="service-text">
                                 <h4 class="title">من نحن؟</h4>
-                                <p>قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة.</p>
+                                <p class="fw-bold fs-16px">قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة.</p>
                             </div>
                         </div><!-- .service -->
                     </div><!-- .col -->
@@ -260,7 +260,7 @@
                             </div>
                             <div class="service-text">
                                 <h4 class="title">رؤيتنا</h4>
-                                <p>نواكب 2030 بتزامن خدمات تتسارع مع التطوير والابتكار ليصل عملاؤنا إلى القمة</p>
+                                <p class="fw-bold fs-16px">نواكب 2030 بتزامن خدمات تتسارع مع التطوير والابتكار ليصل عملاؤنا إلى القمة</p>
                             </div>
                         </div><!-- .service -->
                     </div><!-- .col- -->
@@ -271,7 +271,7 @@
                             </div>
                             <div class="service-text">
                                 <h4 class="title">رسالتنا</h4>
-                                <p>نواكب رؤية ٢٠٣٠ بتزامن خدمات تتسارع مع التطوير والإبتكار في خدمات تأخذنا نحو القمة</p>
+                                <p class="fw-bold fs-16px">نحو النجاحات نطمح وللقمة نسعى</p>
                             </div>
                         </div><!-- .service -->
                     </div><!-- .col -->
@@ -286,7 +286,7 @@
                 <div class="col-xl-7 col-md-8">
                     <div class="section-head">
                         <h2 class="title text-dark">ماذا نقدّم لكم؟</h2>
-                        <p>عندما تضع أمامك كلّ الخيارات المتاحة للمقارنة فإنّك حتماً ستختار إتمام لتميز خدماتنا وإبداعنا المتواصل. عندما تختارنا فإنك تختار الجودة والخبرة التي اختارتها أكبر الشّركات في المملكة</p>
+                        <p class="fw-bold fs-16px">عندما تضع أمامك كلّ الخيارات المتاحة للمقارنة فإنّك حتماً ستختار قمّة المَلقا لتميز خدماتنا وإبداعنا المتواصل. عندما تختارنا فإنك تختار الجودة والخبرة التي اختارتها أكبر الشّركات في المملكة</p>
                     </div><!-- .section-head -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -379,7 +379,6 @@
                 <div class="col-lg-6">
                     <div class="section-head">
                         <h2 class="title">كيف نستطيع أن نساعدك؟</h2>
-                        <p>عندما تضع أمامك كلّ الخيارات المتاحة للمقارنة فإنّك حتماً ستختار إتمام لتميز خدماتنا وإبداعنا المتواصل. عندما تختارنا فإنك تختار الجودة والخبرة التي اختارتها أكبر الشّركات في المملكة</p>
                     </div><!-- .section-head -->
                 </div><!-- .col -->
             </div><!-- .row -->
@@ -388,42 +387,42 @@
                     <div class="accordion accordion-s1 card  border-0 round-xl" id="accordion">
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-1">
-                                <span>من هي قمّة المَلقا لخدمات الاعمال ؟</span>
+                                <span class=" fw-bold">من هي قمّة المَلقا لخدمات الاعمال ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse " id="accordion-item-1" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة. </p>
+                                    <p class="text-gray fs-16px fw-bold">قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة. </p>
                                 </div>
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed " data-bs-toggle="collapse" data-bs-target="#accordion-item-2">
-                                <span>لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</span>
+                                <span class=" fw-bold">لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-2" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>إذا كنت تبحث عن السّرعة في الأداء والدّقّة والسّريّة التّامّة في إنجاز جميع خدمات الأعمال، فإنّ قمّة المَلقا لخدمات الاعمال خيارك الأمثل. ويمكنك الاطّلاع على تعليقات عملائنا على الخدمات المقدَّمة لهم عبر حسابنا في تويتر على الرّابط التّالي: https://twitter.com/qalmalqa/likes
+                                    <p class="text-gray fs-16px fw-bold">إذا كنت تبحث عن السّرعة في الأداء والدّقّة والسّريّة التّامّة في إنجاز جميع خدمات الأعمال، فإنّ قمّة المَلقا لخدمات الاعمال خيارك الأمثل. ويمكنك الاطّلاع على تعليقات عملائنا على الخدمات المقدَّمة لهم عبر حسابنا في تويتر على الرّابط التّالي: <a class="text-black" href="https://twitter.com/qalmalqa/likes">https://twitter.com/qalmalqa/likes</a>
                                     </p>
                                 </div>
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed " data-bs-toggle="collapse" data-bs-target="#accordion-item-3">
-                                <span>ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</span>
+                                <span class=" fw-bold">ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-3" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         الشّركات
                                     </p>
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         المصانع
 
                                     </p>
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         المؤسّسات الفرديّة.
 
                                     </p>
@@ -432,12 +431,12 @@
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-4">
-                                <span>هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</span>
+                                <span class=" fw-bold">هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-4" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         نعم يمكنكم الاطّلاع على دليل خدماتنا على الرّابط التّالي: <a href="https://bit.ly/3bIpwsy">https://bit.ly/3bIpwsy</a>
 
                                     </p>
@@ -451,113 +450,7 @@
             </div><!-- .row -->
         </div><!-- .container -->
     </section>
-    <section class="section pt-0 pb-2" dir="ltr">
-        <div class="container">
-            <!-- Section title -->
-            <div class="row mb-4">
-                <div class="col text-start">
-                    <h3>أحدث الأخبار</h3>
-                </div>
-            </div>
 
-            <!-- News Cards Row -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="news-slider" class="owl-carousel">
-                        <div class="post-slide">
-                            <div class="post-img">
-                                <img src="https://images.unsplash.com/photo-1596265371388-43edbaadab94?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                                <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="post-content">
-                                <h3 class="post-title">
-                                    <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </h3>
-                                <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
-                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                <a href="#" class="read-more">read more</a>
-                            </div>
-                        </div>
-
-                        <div class="post-slide">
-                            <div class="post-img">
-                                <img src="https://images.unsplash.com/photo-1533227268428-f9ed0900fb3b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=503" alt="">
-                                <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="post-content">
-                                <h3 class="post-title">
-                                    <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </h3>
-                                <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
-                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                <a href="#" class="read-more">read more</a>
-                            </div>
-                        </div>
-
-                        <div class="post-slide">
-                            <div class="post-img">
-                                <img src="https://images.unsplash.com/photo-1564979268369-42032c5ca998?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=500" alt="">
-                                <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="post-content">
-                                <h3 class="post-title">
-                                    <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </h3>
-                                <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
-                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                <a href="#" class="read-more">read more</a>
-                            </div>
-                        </div>
-
-                        <div class="post-slide">
-                            <div class="post-img">
-                                <img src="https://images.unsplash.com/photo-1576659531892-0f4991fca82b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=501" alt="">
-                                <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="post-content">
-                                <h3 class="post-title">
-                                    <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </h3>
-                                <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
-                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                <a href="#" class="read-more">read more</a>
-                            </div>
-                        </div>
-
-                        <div class="post-slide">
-                            <div class="post-img">
-                                <img src="https://images.unsplash.com/photo-1586083702768-190ae093d34d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=305&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=505" alt="">
-                                <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="post-content">
-                                <h3 class="post-title">
-                                    <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </h3>
-                                <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
-                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                <a href="#" class="read-more">read more</a>
-                            </div>
-                        </div>
-
-                        <div class="post-slide">
-                            <div class="post-img">
-                                <img src="https://images.unsplash.com/photo-1484656551321-a1161420a2a0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=306&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=506" alt="">
-                                <a href="#" class="over-layer"><i class="fa fa-link"></i></a>
-                            </div>
-                            <div class="post-content">
-                                <h3 class="post-title">
-                                    <a href="#">Lorem ipsum dolor sit amet.</a>
-                                </h3>
-                                <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
-                                <span class="post-date"><i class="fa fa-clock-o"></i>Out 27, 2019</span>
-                                <a href="#" class="read-more">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="section pt-0" dir="ltr">
         <div class="container">
             <!-- Section title -->
@@ -589,7 +482,7 @@
                                         </ul>
                                     </div>
                                     <div class="review-text">
-                                        <p>Iالف شكر شركة إتمام
+                                        <p>Iالف شكر شركة قمة الملقا
                                             شهرين ونحن نواجه مشكلة في نظام مدد وبفضلكم بعد الله أنحلت المشكلة
                                             وتم رفع الرواتب على أكمل وجه </p>
                                         <span style="color: #9B791F;">متجر ركن الوسطى الالكتروني للمنتجات الرجالية</span>
@@ -618,7 +511,7 @@
                                         </ul>
                                     </div>
                                     <div class="review-text">
-                                        <p>Iالف شكر شركة إتمام
+                                        <p>Iالف شكر شركة قمة الملقا
                                             شهرين ونحن نواجه مشكلة في نظام مدد وبفضلكم بعد الله أنحلت المشكلة
                                             وتم رفع الرواتب على أكمل وجه </p>
                                         <span style="color: #9B791F;">متجر ركن الوسطى الالكتروني للمنتجات الرجالية</span>
@@ -656,11 +549,11 @@
             <!-- News Cards Row -->
             <div class="row" >
                 <div id="clint_owl" class="owl-carousel">
-                    <div><img src="{{asset('Frontend/img/6525526377210.jpg')}}" style="max-width: 150px;"/></div>
-                    <div><img src="{{asset('Frontend/img/6525526377210.jpg')}}" style="max-width: 150px;"/></div>
-                    <div><img src="{{asset('Frontend/img/6525526377210.jpg')}}" style="max-width: 150px;"/></div>
-                    <div><img src="{{asset('Frontend/img/6525526377210.jpg')}}" style="max-width: 150px;"/></div>
-                    <div><img src="{{asset('Frontend/img/6525526377210.jpg')}}" style="max-width: 150px;"/></div>
+                    <div class="justify-content-center align-content-center"><img src="{{asset('Frontend/img/par/1.webp')}}" style="max-width: 200px;"/></div>
+                    <div class="d-flex justify-content-center align-content-center"><img src="{{asset('Frontend/img/par/2.webp')}}" style="max-width: 200px;"/></div>
+                    <div><img src="{{asset('Frontend/img/par/3.webp')}}" style="max-width: 200px;"/></div>
+                    <div><img src="{{asset('Frontend/img/par/4.webp')}}" style="max-width: 200px;"/></div>
+
                 </div>
             </div>
         </div>

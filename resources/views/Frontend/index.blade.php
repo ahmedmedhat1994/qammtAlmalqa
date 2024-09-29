@@ -25,7 +25,7 @@
     .accordion-head {
         border-color: #f5f6fa;
         background: #f5f6fa;
-        color: slategray;
+        color: #000000;
     }
 
     .accordion-head:hover {
@@ -421,42 +421,42 @@
                     <div class="accordion accordion-s1 card  border-0 round-xl" id="accordion">
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-1">
-                                <span>من هي قمّة المَلقا لخدمات الاعمال ؟</span>
+                                <span class=" fw-bold">من هي قمّة المَلقا لخدمات الاعمال ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse " id="accordion-item-1" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة. </p>
+                                    <p class="text-gray fs-16px fw-bold">قمة الملقا هي مؤسسة متخصصة في تقديم خدمات الأعمال المبتكرة حيث نعمل على تحقيق الأهداف التجارية من خلال دراسة الجدوى والوساطات العقارية وتطوير حملات تسويقية متكاملة تشمل الاستشارات من المختصين، حيث نؤمن في تحويل الأفكار إلى واقع ملموس ليصل عملاؤنا إلى القمة. </p>
                                 </div>
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed " data-bs-toggle="collapse" data-bs-target="#accordion-item-2">
-                                <span>لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</span>
+                                <span class=" fw-bold">لماذا تختار قمّة المَلقا لخدمات الاعمال ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-2" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>إذا كنت تبحث عن السّرعة في الأداء والدّقّة والسّريّة التّامّة في إنجاز جميع خدمات الأعمال، فإنّ قمّة المَلقا لخدمات الاعمال خيارك الأمثل. ويمكنك الاطّلاع على تعليقات عملائنا على الخدمات المقدَّمة لهم عبر حسابنا في تويتر على الرّابط التّالي: https://twitter.com/qalmalqa/likes
+                                    <p class="text-gray fs-16px fw-bold">إذا كنت تبحث عن السّرعة في الأداء والدّقّة والسّريّة التّامّة في إنجاز جميع خدمات الأعمال، فإنّ قمّة المَلقا لخدمات الاعمال خيارك الأمثل. ويمكنك الاطّلاع على تعليقات عملائنا على الخدمات المقدَّمة لهم عبر حسابنا في تويتر على الرّابط التّالي: <a class="text-black" href="https://twitter.com/qalmalqa/likes">https://twitter.com/qalmalqa/likes</a>
                                     </p>
                                 </div>
                             </div>
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed " data-bs-toggle="collapse" data-bs-target="#accordion-item-3">
-                                <span>ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</span>
+                                <span class=" fw-bold">ماهى نوع المنشأت التى تقدم قمّة المَلقا الخدمات لها ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-3" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         الشّركات
                                     </p>
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         المصانع
 
                                     </p>
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         المؤسّسات الفرديّة.
 
                                     </p>
@@ -465,12 +465,12 @@
                         </div><!-- .accordion-item -->
                         <div class="accordion-item">
                             <a href="#" class="accordion-head collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-item-4">
-                                <span>هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</span>
+                                <span class=" fw-bold">هل هناك سابقة اعمال لخدمات قمّة المَلقا ؟</span>
                                 <span class="accordion-icon"></span>
                             </a>
                             <div class="accordion-body collapse" id="accordion-item-4" data-bs-parent="#accordion">
                                 <div class="accordion-inner">
-                                    <p>
+                                    <p class="text-gray fs-16px fw-bold">
                                         نعم يمكنكم الاطّلاع على دليل خدماتنا على الرّابط التّالي: <a href="https://bit.ly/3bIpwsy">https://bit.ly/3bIpwsy</a>
 
                                     </p>
@@ -551,7 +551,7 @@
                                         </ul>
                                     </div>
                                     <div class="review-text">
-                                        <p>Iالف شكر شركة إتمام
+                                        <p>Iالف شكر شركة قمة الملقا
                                             شهرين ونحن نواجه مشكلة في نظام مدد وبفضلكم بعد الله أنحلت المشكلة
                                             وتم رفع الرواتب على أكمل وجه </p>
                                         <span style="color: #9B791F;">متجر ركن الوسطى الالكتروني للمنتجات الرجالية</span>
@@ -580,7 +580,7 @@
                                         </ul>
                                     </div>
                                     <div class="review-text">
-                                        <p>Iالف شكر شركة إتمام
+                                        <p>Iالف شكر شركة قمة الملقا
                                             شهرين ونحن نواجه مشكلة في نظام مدد وبفضلكم بعد الله أنحلت المشكلة
                                             وتم رفع الرواتب على أكمل وجه </p>
                                         <span style="color: #9B791F;">متجر ركن الوسطى الالكتروني للمنتجات الرجالية</span>
