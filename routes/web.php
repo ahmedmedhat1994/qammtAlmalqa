@@ -30,6 +30,10 @@ Route::get('/about',['App\Http\Controllers\Frontend\HomeController','about'])->n
 Route::get('/privacy_policy',['App\Http\Controllers\Frontend\HomeController','privacy_policy'])->name('privacy_policy');
 Route::get('/conditions',['App\Http\Controllers\Frontend\HomeController','conditions'])->name('conditions');
 Route::get('/contact',['App\Http\Controllers\Frontend\HomeController','contact'])->name('contact');
+Route::get('/qammaworld',function (){
+    $url = 'https://linktr.ee/qalmalqa';
+    return \Illuminate\Support\Facades\Redirect::to($url);
+})->name('qammaworld');
 Route::get('/site',function (){
     SitemapGenerator::create('https://qalmalqa.com/')->writeToFile('public/sitemap.xml');
 
