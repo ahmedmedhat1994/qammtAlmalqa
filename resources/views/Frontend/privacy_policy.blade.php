@@ -212,6 +212,8 @@
                         <li class="menu-item"><a href="{{route('privacy_policy')}}" class="menu-link">سياسة الخصوصية</a></li>
                         <li class="menu-item"><a href="{{route('conditions')}}" class="menu-link">الشروط والاحكام</a></li>
                         <li class="menu-item"><a href="{{route('contact')}}" class="menu-link nav-link">تواصل معنا</a></li>
+                        <li class="menu-item"><a href="https://drive.google.com/file/d/1PfoxzYozJVzXnOM5JY_usGJgZYnuSHgI/view?usp=sharing" class="menu-link nav-link" target="_blank">سابقة الاعمال</a></li>
+
 
                     </ul>
                     <ul class="menu-btns">
